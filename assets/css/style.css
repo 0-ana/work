@@ -1,0 +1,85 @@
+/* Basic styling for the quiz elements */ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+#quiz-container {
+    background-color: white;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.choice-container {
+    background-color: #eaeaea;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.choice-container.correct {
+    background-color: #4caf50; /* Green for correct answers */
+    color: white;
+}
+
+.choice-container.incorrect {
+    background-color: #f44336; /* Red for incorrect answers */
+    color: white;
+}
+
+.score {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.progress {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#end-container {
+    background-color: white;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#final-score {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
